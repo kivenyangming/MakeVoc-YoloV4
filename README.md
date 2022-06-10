@@ -1,3 +1,6 @@
+根据源码： https://github.com/bubbliiiing/yolov4-pytorch 修改完成\
+感谢bubbliiiing
+
 ## 修改部分：
 在yolo.py 中计算含有目标top left bottom right下方 添加如下代码用以生成配套txt文件，然后进入SaveData文件夹中运行txt2xml.py即可获取xml文件
 ```
